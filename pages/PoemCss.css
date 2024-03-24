@@ -1,0 +1,54 @@
+
+
+
+body{
+    border: 15px solid lightcoral;
+    border-bottom: 15px solid darkred;
+    border-right: 15px solid darkred;
+    
+}
+
+  h1{
+   color: rgb(237, 181, 13);
+   font-size: 50px;
+   padding-left: 150px;
+  }
+
+  h2{
+    opacity: 0.8;
+    color: black;
+    font-size: 29px;
+    padding-left: 220px;
+    font-family: serif sans-serif;
+    
+  }
+ 
+.container{
+    background-image: url('../img/crow-1002849_1280HWraven.jpg');
+    border: 2px solid lightcoral;
+    background-size: cover;
+    border-bottom: 2px solid darkred;
+    border-right: 2px solid darkred;
+    color: white;
+    font-size: 23px;
+    text-indent: 50px;
+    font-family: serif sans-serif;
+}
+
+ i{
+    letter-spacing: 2px;
+ }
+
+ span{
+    border-bottom: 3px solid rgb(237, 181, 13); ;
+ }
+
+ .line {
+    border-bottom: 5px solid brown;
+    margin-bottom: 5px;
+ }
+
+ .line1 {
+    border-bottom: 5px solid brown;
+ }
+
