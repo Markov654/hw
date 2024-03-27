@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    border: 5px solid gray;
+}
+
+h1{
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #41484E;
+    padding: 20px;
+    color: white;
+}
+
+.even{
+    background-color: #5E6f7d;
+}
+
