@@ -5,6 +5,7 @@ body{
     border: 15px solid lightcoral;
     border-bottom: 15px solid darkred;
     border-right: 15px solid darkred;
+  
     
 }
 
@@ -33,6 +34,7 @@ body{
     font-size: 23px;
     text-indent: 50px;
     font-family: serif sans-serif;
+   
 }
 
  i{
@@ -40,7 +42,7 @@ body{
  }
 
  span{
-    border-bottom: 3px solid rgb(237, 181, 13); ;
+    border-bottom: 3px solid rgb(237, 181, 13); 
  }
 
  .line {
@@ -50,5 +52,20 @@ body{
 
  .line1 {
     border-bottom: 5px solid brown;
+    
  }
+
+ #differ {
+   color: rgb(237, 181, 13);
+   text-indent: 0;
+ }
+
+ #black{
+   color: black;
+   text-indent: 0;
+   
+   
+ }
+
+ 
 
