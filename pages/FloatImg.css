@@ -1,0 +1,26 @@
+body{
+    background-color: darkred;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+img{
+    float: left;
+}
+
+p{
+    font-size: 1.5em;
+    color: yellow;
+}
+
+.img1{
+    float: right;
+}
+
+.container{
+    margin: 0;
+}

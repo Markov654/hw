@@ -1,0 +1,54 @@
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+  
+    
+    
+}
+
+header{
+    border: 5px solid blue;
+    text-align: center;
+    margin: 27px;
+}
+
+main{
+  
+    display: flex;
+    height: 30em;
+    margin: 15px;
+    
+}
+
+aside{
+    border: 5px solid red;
+    width: 30em;
+    text-align: center;
+    margin: 15px;
+  
+}
+
+article{
+    border: 5px solid green;
+    width: 68em;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+.img{
+    border: 5px solid yellow;
+    display: inline-block;
+    margin-top: 15em;
+    margin-left: 7em;
+    padding: 50px;
+    
+}
+
+footer{
+    border: 5px solid blueviolet;
+    text-align: center;
+    margin: 27px;
+}

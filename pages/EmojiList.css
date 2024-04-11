@@ -1,0 +1,22 @@
+ul{
+    list-style-type: none;
+}
+
+.todoList{
+    border: 5px solid darkred;
+    border-left: 5px solid lightcoral;
+    border-top: 5px solid lightcoral;
+}
+
+.emoji-smile::before{
+    content: '😀 ';
+}
+
+.emoji-sad::before{
+    content: '😓 ';
+}
+
+.emoji-loudly-crying::before{
+    content: '🤬 ';
+}
+

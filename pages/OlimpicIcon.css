@@ -1,0 +1,70 @@
+body{
+    background-image: url(../img/ocean-through-window-frame.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    width: auto;
+}
+
+div{
+    margin: 10px;
+    height: 20vh;
+    width: 20vh;
+    font-size: 28px;
+    opacity: 0.7;
+}
+
+div p{
+    text-align: center;
+}
+
+.containermql div{
+    height: 20vh;
+    width: 20vh;
+    position: relative;
+    opacity: 0.7;
+}
+
+.container1{
+    border: 2.5vh solid blue;
+    border-radius: 50%;
+    text-align: center;
+    
+
+}
+
+.container2{
+    border:  2.5vh solid yellow;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container3{
+    border:  2.5vh solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container4{
+    position: absolute;
+    bottom: 395px;
+    left: 535px;
+    border:  2.5vh solid green;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container5{
+    position: absolute;
+    bottom: 80vh;
+    left: 100vh;
+    border:  2.5vh solid red;
+    border-radius: 50%;
+    text-align: center;
+}
