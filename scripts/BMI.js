@@ -11,10 +11,12 @@ let bmi = (weight / (height * height / 10000))
 
 if(bmi< 20){
     result.innerText = `You are a tin${bmi.toFixed(2)}`
+    console.log(`You are a tin${bmi.toFixed(2)}`)
 }
 
 if(bmi> 27){
     result.innerText = `You are a fat${bmi.toFixed(2)}`
+   
 }
 
 if(bmi>20 && bmi < 27){
