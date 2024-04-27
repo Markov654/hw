@@ -11,35 +11,15 @@ var rulers = [
 	["крум", 803,814 ],
 	["ОмурТАг",814,831],
 ];
-
-
-
-if(rulers[0][2] - rulers[0][1] > 15){
-    console.log( toCamelCaseCyr(`асПАРуХ е управлявал ${rulers[0][2] - rulers[0][1]} години.`) );
+for(i=0; i< rulers.length; i++){
+	let ruler = rulers[i]
+	rulerResult = ruler[2] - ruler[1]
+	if(rulerResult > 15){
+		console.log(` ${ruler[0]} управлявал ${rulerResult} години`)
+	}
+	
 }
 
-if(rulers[1][2] - rulers[1][1] > 15){
-    console.log( toCamelCaseCyr(`тЕРвеЛ е управлявал ${rulers[1][2] - rulers[1][1]} години.`) );
-}
-
-if(rulers[2][2] - rulers[2][1] > 15){
-    console.log( toCamelCaseCyr(`СеВаР е управлявал ${rulers[2][2] - rulers[2][1]} години.`) );
-}
-
-if(rulers[3][2] - rulers[3][1] > 15){
-    console.log( toCamelCaseCyr(`телЕРИГ е управлявал ${rulers[3][2] - rulers[3][1]} години.`) );
-}
-if(rulers[4][2] - rulers[4][1] > 15){
-    console.log( toCamelCaseCyr(`каРДАм е управлявал ${rulers[4][2] - rulers[4][1]} години.`) );
-}
-
-if(rulers[5][2] - rulers[5][1] > 15){
-    console.log( toCamelCaseCyr(`крум е управлявал ${rulers[5][2] - rulers[5][1]} години.`) );
-}
-
-if(rulers[6][2] - rulers[6][1] > 15){
-    console.log( toCamelCaseCyr(`ОмурТАг е управлявал ${rulers[6][2] - rulers[6][1]} години.`) );
-}
 
 
 // ЗАДАЧА: Изпишете в конзолата имената на онези български владетели, които са управлявали повече от 15 години.
